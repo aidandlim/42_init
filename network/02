@@ -4,19 +4,19 @@
 #
 # Expected output : 
 # (a) en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
-#       options=400<CHANNEL_IO>
-#       ether 78:4f:43:7d:0d:67 
-#       inet6 fe80::84b:f782:8e09:a5c4%en0 prefixlen 64 secured scopeid 0x4 
-#       inet 10.10.136.78 netmask 0xffff0000 broadcast 10.10.255.255
-#       nd6 options=201<PERFORMNUD,DAD>
-#       media: autoselect
-#       status: active
+#   	options=10b<RXCSUM,TXCSUM,VLAN_HWTAGGING,AV>
+#   	ether 38:c9:86:56:ce:0a
+#   	inet6 fe80::402:ccc:bf64:d702%en0 prefixlen 64 secured scopeid 0x5
+#   	inet 10.112.3.36 netmask 0xffff0000 broadcast 10.112.255.255
+#   	nd6 options=201<PERFORMNUD,DAD>
+#	    media: autoselect (1000baseT <full-duplex,energy-efficient-ethernet>)
+#   	status: active
 #
-# (b) ? (10.10.116.117) at d8:8f:76:59:dc:36 on en0 ifscope [ethernet]
-#       ? (10.10.116.192) at 88:ae:7:37:50:b8 on en0 ifscope [ethernet]
-#       ? (10.10.117.97) at 34:f3:9a:74:c6:3d on en0 ifscope [ethernet]
-#       ? (10.10.119.3) at 64:70:33:6e:2a:66 on en0 ifscope [ethernet]
-#       ? (10.10.119.23) at 4c:56:9d:13:2:ab on en0 ifscope [ethernet]
+# (b) e1z2r3p10.42.us.org (10.112.3.10) at 38:c9:86:56:ca:92 on en0 ifscope [ethernet]
+#       e1z2r3p18.42.us.org (10.112.3.18) at 38:c9:86:57:25:d8 on en0 ifscope [ethernet]
+#       e1z2r3p27.42.us.org (10.112.3.27) at 38:c9:86:56:cb:25 on en0 ifscope [ethernet]
+#       e1z2r4p7.42.us.org (10.112.4.7) at 38:c9:86:56:ae:85 on en0 ifscope [ethernet]
+#       e1z2r4p11.42.us.org (10.112.4.11) at 38:c9:86:56:cd:f5 on en0 ifscope [ethernet]
 #       ...
 
 ifconfig en0

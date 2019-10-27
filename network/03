@@ -1,3 +1,5 @@
 # Identify the MAC address of the Wi-Fi card
 #
-# Expected output : 
+# Expected output : 28:f0:76:4b:f8:aa
+
+ifconfig en1 | grep ether | awk '{print $2}'
