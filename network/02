@@ -3,3 +3,21 @@
 # (b) Identify all IP adresses which are part of the same subnet
 #
 # Expected output : 
+# (a) en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+#       options=400<CHANNEL_IO>
+#       ether 78:4f:43:7d:0d:67 
+#       inet6 fe80::84b:f782:8e09:a5c4%en0 prefixlen 64 secured scopeid 0x4 
+#       inet 10.10.136.78 netmask 0xffff0000 broadcast 10.10.255.255
+#       nd6 options=201<PERFORMNUD,DAD>
+#       media: autoselect
+#       status: active
+#
+# (b) ? (10.10.116.117) at d8:8f:76:59:dc:36 on en0 ifscope [ethernet]
+#       ? (10.10.116.192) at 88:ae:7:37:50:b8 on en0 ifscope [ethernet]
+#       ? (10.10.117.97) at 34:f3:9a:74:c6:3d on en0 ifscope [ethernet]
+#       ? (10.10.119.3) at 64:70:33:6e:2a:66 on en0 ifscope [ethernet]
+#       ? (10.10.119.23) at 4c:56:9d:13:2:ab on en0 ifscope [ethernet]
+#       ...
+
+ifconfig en0
+arp -a
