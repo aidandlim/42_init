@@ -1,3 +1,5 @@
 # Identify the network devices between your computer and the slash16.org domain
 #
-# Expected output : 
+# Expected output : ...
+
+traceroute slash16.org

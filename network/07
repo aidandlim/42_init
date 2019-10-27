@@ -1,3 +1,17 @@
 # Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
 #
 # Expected output : 
+#       Server:         8.8.8.8
+#       Address:        8.8.8.8#53
+#
+#       Non-authoritative answer:
+#       Name:   slash16.org
+#       Address: 99.84.231.92
+#       Name:   slash16.org
+#       Address: 99.84.231.140
+#       Name:   slash16.org
+#       Address: 99.84.231.58
+#       Name:   slash16.org
+#       Address: 99.84.231.195
+
+nslookup slash16.org 8.8.8.8

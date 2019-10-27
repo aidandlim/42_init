@@ -1,3 +1,5 @@
 # Find the command that kills ssh service
 #
 # Expected output : 
+
+systemctl stop ssh

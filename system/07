@@ -1,3 +1,5 @@
 # Figure out the PID of the SSHD service.
 #
 # Expected output : 
+
+systemctl status ssh | grep " PID" | awk '{print $3}'

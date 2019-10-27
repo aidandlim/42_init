@@ -1,3 +1,5 @@
 # Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
 #
 # Expected output : 
+
+ssh sapark@127.0.0.1

@@ -1,3 +1,9 @@
 # Find the provider of slash16.org
 #
-# Expected output : 
+# Expected output : ...
+
+IPs=(`dig +short slash16.org`)
+for IP in "${IPs[@]}"; 
+do 
+    whois $IP; 
+done

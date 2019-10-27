@@ -1,3 +1,7 @@
 # In what file can you find the installed version of your Debian?
 #
 # Expected output : 
+
+/etc/debian_version
+
+The way on how to check what Debian version you are running is to use /etc/debian_version command.

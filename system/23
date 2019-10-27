@@ -1,3 +1,6 @@
 # Explain how connect yourself as new user. (With graphic session and ssh session)
 #
 # Expected output : 
+
+Graphical : When we boot the system and asked, put your login and password.
+SSH : on our another device, type ssh USER@IP in the terminal, then put password when asked.

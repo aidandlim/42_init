@@ -1,3 +1,7 @@
 # Find the command that kills the background command’s process
 #
 # Expected output : 
+
+kill %pid
+
+#pid can get jobs command.

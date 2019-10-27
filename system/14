@@ -1,3 +1,5 @@
 # Run the ‘tail -f /var/log/syslog‘ command in background
 #
 # Expected output : 
+
+tail -f /var/log/syslog &

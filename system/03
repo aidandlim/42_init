@@ -1,3 +1,7 @@
 # What file has to be modified to make it permanent?
 #
 # Expected output : 
+
+Search for system configuration folder of any Unix system, then for hostname.
+/etc/hostname.
+Modify the entry and restart the system.

@@ -1,3 +1,5 @@
 # Find the command that add a new local user
 #
 # Expected output : 
+
+adduser <name>

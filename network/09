@@ -1,3 +1,7 @@
 # Find the external IP of 42.fr
 #
 # Expected output : 
+#       163.172.250.12
+#       163.172.250.13
+
+dig +short 42.fr
