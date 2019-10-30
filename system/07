@@ -8,4 +8,4 @@
 #       (2) run the command ps (short for process status, displaying currently-running processes, real-time view)
 #           aux for the a argument lets ps show processes of all users instead of only the current user.
 
-ps aux | grep ssh | awk 'FNR == 1' | awk '{print $2}'
+ps aux | grep sshd | awk 'FNR == 1' | awk '{print $2}'
