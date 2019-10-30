@@ -1,7 +1,7 @@
 # Example : 
 #       Write a script which delete an ACTIVE user on the VM.
 
-echo "Who do you want to delete?"
-read name
-sudo userdel $name
-echo "Mission Complete."
+echo "[Delete user]"
+echo "Username :"
+read username
+/sbin/userdel $username

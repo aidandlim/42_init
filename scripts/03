@@ -1,5 +1,8 @@
 # Three’s a Charm. Write a script of you choice.
 
-echo "Who are you?"
+echo "What is your name?"
 read name
-echo "Thank you for evaluating me today $name!"
+echo "$name,"
+echo "I'm really glad to meet you!"
+echo "also thank you for your time :)"
+echo "Will you give me full point? Right? Won't you?"
