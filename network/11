@@ -3,19 +3,11 @@
 #       that makes the link between you (local network) and the outside world
 #
 # Expected output : 
+#       nat(10.90.1.11)
 #
 # Note :
-#       The use of Private address means that the same IP addresses may be reused by many organisations (saving millions of IPv4 addresses) and only when the traffic is sent to the PUBLIC network must it be translated (via NAT) to a Public address.
 #       NAT : Network Address Translation refers to the process by which a private IP address may be mapped
 #       translated to a public IP address. NAT process is usually located in a router.
-#       NAT  10.90.1.11.
-#       after †his point the address changes to a public IP address.
+#       after this point the address changes to a public IP address.
 
-10.10.254.254
-
-line 1 is the local IP adress, then line 2 is the NAT router who’s remaping the local IP to a public IP pointing to dc3, the host of our public IP..
-1 : Local IP
-2 : NAT IP
-3 : Public IP
-
-It start from our device and end with slash16.org’s address.
+traceroute 8.8.8.8 | grep nat | awk '{print $2 $3}'

@@ -6,12 +6,9 @@
 #       nameserver 10.51.1.253
 #
 # Note :
-#       is the computer file used in various operating systems to configure the system's Domain Name System resolver.
-#       Automatically made by Dynamic Host Configuration Protocol client program which contains the Domain Name System server. (for "multi-client")
-#       -----------------------------but------------------------
-#       if you try to cat /etc/resolv.conf
-#       it gives you a notice and it takes you to scutil --dns
-#       if you want to get the list of DNS servers configured on your system try using the below
-#       scutil --dns | grep nameserver      <------scutil is (System configuration utility)
+#       cat /etc/resolv.conf
+#       if you try to cat /etc/resolv.conf, it gives you a notice and it takes you to scutil --dns
+#       scutil --dns | grep nameserver
+#       scutil is System configuration utility
 
-cat /etc/resolv.conf
+/etc/resolv.conf

@@ -2,9 +2,10 @@
 #       Thanks to the previous question and the reverse DNS find the name of your host
 #
 # Expected output : 
+#       e1z2r3p36.42.us.org
 #
 # Note :
 #       the command I used for this is host, host if put in a domain name gives an IP address if address gives a domain name 
-#       host 10.112.6.4 | awk '{print$5}' 
+#       host [IP address] | awk '{print$5}' 
 
-e1z2r3p36.42.us.org.
+e1z2r3p36.42.us.org

@@ -7,8 +7,5 @@
 #
 # Note :
 #       The IP address converted by the domain name by the utility host is the external IP addresses.
-#       Home and business networks use private or internal addresses from a reserved non route-able address range so the address we were given is the external IP address.
-#       --------just useful tip use FNR you can count the rows!------------------
-#       host 42.fr | grep address | awk '{print $4}'
 
-dig +short 42.fr
+host 42.fr | grep address | awk '{print $4}'

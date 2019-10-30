@@ -7,7 +7,6 @@
 # Note :
 #       network statistics -r to get the routing table
 #       default one is the first one.
-#       if you use r the result never ends. 
-#       please use -nr (all it does is convert address in to numbers but it ends the process as well)
+#       if you use -n the result never ends. 
 
 netstat -nr | grep en0 | grep default
