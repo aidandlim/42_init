@@ -1,5 +1,8 @@
-# List all real users on the VM
+# Example : 
+#       List all real users on the VM
 #
-# Expected output : 
+# Note :
+#       all humnan users aka real user's directory starts from home
+#       try greping with the path /home/
 
-cat /etc/passwd | grep '/home/' | awk -F':' '{print $1}'
+cat /etc/passwd | grep '/home/'| awk -F: '{print $1}'

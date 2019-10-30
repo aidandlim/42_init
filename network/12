@@ -1,5 +1,14 @@
-# Find the IP that was assigned to you by dhcp server
+# Example : 
+#       Find the IP that was assigned to you by dhcp server
 #
 # Expected output : 
+#
+# Note :
+#       <DHCP> Dynamic Host Configuration Protocol
+#       When your machine is connected to the internet (when a client joins the network)
+#       it automatically provides and assigns IP addresses.
+#       so.....how does this work for my computer
+#       When the computer is connected to the internet by ethernet (en0) the DHCP Server
+#       assigns a IP address.
 
 ifconfig en0 | grep "inet " | awk '{print $2}'

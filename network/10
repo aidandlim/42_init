@@ -1,5 +1,11 @@
-# Identify the network devices between your computer and the slash16.org domain
+# Example : 
+#       Identify the network devices between your computer and the slash16.org domain
 #
-# Expected output : ...
+# Expected output : 
+#       ...
+#
+# Note :
+#       internet is connected through gateways
+#       traceroute is a function which traces the path from one network to another.
 
 traceroute slash16.org

@@ -1,6 +1,15 @@
-# Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world
+# Example : 
+#       Use the output of the previous command to find the name and IP address of the device 
+#       that makes the link between you (local network) and the outside world
 #
 # Expected output : 
+#
+# Note :
+#       The use of Private address means that the same IP addresses may be reused by many organisations (saving millions of IPv4 addresses) and only when the traffic is sent to the PUBLIC network must it be translated (via NAT) to a Public address.
+#       NAT : Network Address Translation refers to the process by which a private IP address may be mapped
+#       translated to a public IP address. NAT process is usually located in a router.
+#       NAT  10.90.1.11.
+#       after †his point the address changes to a public IP address.
 
 10.10.254.254
 

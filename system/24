@@ -1,5 +1,7 @@
-# Find the command that list all packages
+# Example : 
+#       Find the command that list all packages
 #
-# Expected output : 
+# Note :
+#       for getting the list of all packages
 
 apt list --installed

@@ -1,5 +1,7 @@
-# Name the command that determines the state of the SSH service.
+# Example : 
+#       Name the command that determines the state of the SSH service.
 #
-# Expected output : 
+# Note :
+#       systemctl status ssh this command shows the current state of the SSh
 
 systemctl status ssh

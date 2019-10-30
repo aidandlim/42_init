@@ -1,5 +1,10 @@
-# What command lets you know who is connected to the System?
+# Example : 
+#       What command lets you know who is connected to the System?
 #
-# Expected output : 
+# Note :
+#       you can use command w or command who
+#	    w 	-	Show who is logged on and what they are doing.
+#	    who -	Show who is logged on
+#       in this case who is logged on will be enough
 
-w
+who

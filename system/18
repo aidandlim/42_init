@@ -1,5 +1,11 @@
-# Find the command that kills ssh service
+# Example : 
+#       Find the command that kills ssh service
 #
-# Expected output : 
+# Note :
+#       What is systemctl??
+#       Command that controls the systemd(linux initialization system and service manager) system and service manager
+#       vocab daemon(background processes) : ex sshd = Secure Shell Server Daemon
+#       check with systemctl status ssh
+#       result will show that the status is inactive(dead) ;10s ago
 
 systemctl stop ssh

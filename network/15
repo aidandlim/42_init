@@ -1,16 +1,25 @@
-# Make the intra.42.fr address reroute to 46.19.122.85
+# Example : 
+#       Make the intra.42.fr address reroute to 46.19.122.85
 #
 # Expected output : 
+#
+# Note :
+#       Rerouting an IP address to a domain can be done by editing your hosts file
+#       You can use the command : sudo nano etc/hosts
+#       but in this case the permission is denied due to sudo rights.
+#       If it is performed correctly  add the following line
+#       46.19.122.85 intra.42.fr
+#
+#       then if you cat /etc/hosts
+#
+#       127.0.0.1       localhost
+#       255.255.255.255 broadcasthost
+#       ::1             localhost
+#
+#       #10.51.1.38 	cdn.intra.42.fr
+#       127.0.0.1       e1z2r6p4.42.fr
+#       45.19.122.85	intra.42.fr
+#
+#       is expected.
 
-sudo nano /etc/host
-
-permission denied, no sudo rights.
-Modify /etc/hosts and map the ip 46.19.122.85 to intra.42.fr
-
-so if I type cat /etc/hosts command,
-
-127.0.0.1       localhost
-255.255.255.255 broadcasthost
-::1             localhost
-45.19.122.85	intra.42.fr
-is expected.
+sudo nano etc/hosts

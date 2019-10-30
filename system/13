@@ -1,5 +1,8 @@
-# Name the command that find, in real time, currently running processes
+# Example : 
+#        Name the command that find, in real time, currently running processes
 #
-# Expected output : 
+# Note :
+#       top -display linux tasks
+#       dynamic real time view of running processes
 
 top

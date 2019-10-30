@@ -1,8 +1,7 @@
-# Write a script which delete an ACTIVE user on the VM.
-#
-# Expected output : 
+# Example : 
+#       Write a script which delete an ACTIVE user on the VM.
 
-#!/bin/bash
-USER=$1
-pgrep -u $USER | while read PID; do sudo kill $PID; done
-sudo userdel $USER
+echo "Who do you want to delete?"
+read name
+sudo userdel $name
+echo "Mission Complete."

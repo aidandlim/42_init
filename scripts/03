@@ -1,9 +1,5 @@
 # Three’s a Charm. Write a script of you choice.
-#
-# Expected output : 
 
-#!/bin/bash
-FILE=$(locate $1 | sed -n 1p)
-tail -f $FILE &
-echo "RUNNING Alerts for $1 on PID $1"
-exit 1
+echo "Who are you?"
+read name
+echo "Thank you for evaluating me today $name!"

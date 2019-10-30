@@ -1,7 +1,9 @@
-# In what file can you find the installed version of your Debian?
+# Example : 
+#       In what file can you find the installed version of your Debian?
 #
-# Expected output : 
+# Note :
+#       Tip to login to root su - to logout control 'd'
+#       /etc is the system configuration folder containing system related information.
+#       search for etc then search for debian_version
 
 /etc/debian_version
-
-The way on how to check what Debian version you are running is to use /etc/debian_version command.

@@ -1,5 +1,7 @@
-# What command gives you the time since your system was last booted?
+# Example : 
+#       What command gives you the time since your system was last booted?
 #
-# Expected output : 
+# Note :
+#       who -b command, with this command you can see when your system was booted
 
 who -b

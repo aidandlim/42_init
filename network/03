@@ -1,5 +1,11 @@
-# Identify the MAC address of the Wi-Fi card
+# Example : 
+#       Identify the MAC address of the Wi-Fi card
 #
-# Expected output : 28:f0:76:4b:f8:aa
+# Expected output : 
+#       28:f0:76:4b:f8:aa
+#
+# Note :
+#       if you are really curious compare it with the address in settings.
+#       or use networksetup -listallhardwareports
 
 ifconfig en1 | grep ether | awk '{print $2}'

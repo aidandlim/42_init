@@ -1,5 +1,7 @@
-# Name the command that reboots the SSH service.
+# Example : 
+#       Name the command that reboots the SSH service.
 #
-# Expected output : 
+# Note :
+#       can check with systemctl status ssh 
 
 service sshd restart

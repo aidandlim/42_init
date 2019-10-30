@@ -1,5 +1,11 @@
-# What file contains the local DNS entries?
+# Example : 
+#       What file contains the local DNS entries?
 #
 # Expected output : 
+#
+# Note :
+#       file that contains a mapping of IP addresses to URLs.
+#       it override the IP-address-to-URL mapping returned by a DNS server.
+#       The file that contains the local dns entries is /etc/hosts
 
 /etc/hosts

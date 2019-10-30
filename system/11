@@ -1,5 +1,10 @@
-# Name the command that displays the available space left and used on the system in an humanly understandable way
+# Example : 
+#       Name the command that displays the available space left and used on the system in an humanly understandable way
 #
-# Expected output : 
+# Note :
+#       df standing for "disk filesystem" with this command user can display the amount of available space for file systems
+#       on which the invoking user has appropriate read access.
+#       -h will show the file system disk space statistics  in "human readable" format
+#       -H also prints sizes in human readable format but! use powers of 1000 not 1024 so used size will increase
 
-df -H
+df -h

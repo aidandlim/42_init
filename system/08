@@ -1,7 +1,14 @@
-# What file contains the RSA keys of systems that are authorized to connect via SSH?
+# Example : 
+#       What file contains the RSA keys of systems that are authorized to connect via SSH?
 #
-# Expected output : 
+# Note :
+#       RSA key, a private key based on RSA algorithm, used for authentication and a symmetric key exchange
+#       during extablishment of an SSL/TLS session
+#       --------how the key set is used--------------
+#       the public key is added to a special file within the user account you will be logging into
+#       It is stored in the file called authorized_keys which is located in the .ssh folder if it has one.
+#       -------------------but!----------------------
+#       I did not generated a ssh key pair yet so there is nothing in the .ssh directory, but if I generate a key pair in the future with ssh-keygen
+#       it will be stored in
 
-This file is called authorized_keys.
-It is located on .ssh folder(which is different for each users).
 ~/.ssh/authorized_keys

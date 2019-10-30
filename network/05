@@ -1,4 +1,5 @@
-# Identify the IP address of the DNS that responds to the following url: slash16.org
+# Example : 
+#       Identify the IP address of the DNS that responds to the following url: slash16.org
 #
 # Expected output : 
 #       Server:         10.51.1.253
@@ -13,5 +14,17 @@
 #       Address: 99.84.231.195
 #       Name:   slash16.org
 #       Address: 99.84.231.58
+#
+# Note :
+#       DNS the domain name system.
+#       DNS translates domain names to IP addresses so browsers can load internet resources
+#       Internet Protocol has different versions, IPv4 is (version 4) and is in dotted 
+#       -decimal notation. One byte = Eight bits, thirty - two bits(4*8), or 4 bytes]
+#       IPv4 is running out of unique IP addresses, so IPv6 replaces it. 16 byte = 128bits each.
+#       --------------------What is nslookup----------------------
+#       a program to query internet domain name servers.
+#       two modes: interactive, non-interactive. 
+#       Interactive mode allows the user to query name servers for information about various hosts and domains or to print a list of hosts in a domain. 
+#       Non-interactive mode is used to print just the names and requested information for a host or domain.
 
 nslookup slash16.org

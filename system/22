@@ -1,5 +1,7 @@
-# Find the command that add a new local user
+# Example : 
+#       Find the command that add a new local user
 #
-# Expected output : 
+# Note :
+#       can check by using the command for exercise 21
 
-adduser <name>
+adduser <newuser_name>

@@ -1,7 +1,8 @@
-# What file has to be modified to make it permanent?
+# Example : 
+#       What file has to be modified to make it permanent?
 #
-# Expected output : 
+# Note :
+#       vim /etc/hostname then edit the file to a host name you want.
+#       Modify the entry and restart the system.
 
-Search for system configuration folder of any Unix system, then for hostname.
 /etc/hostname.
-Modify the entry and restart the system.

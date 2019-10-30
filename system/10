@@ -1,5 +1,13 @@
-# Name the command that lists the partition tables of drives?
+# Example : 
+#       Name the command that lists the partition tables of drives?
 #
-# Expected output : 
+# Note :
+#       there is 4 ways to do this!! 4!!
+#       lsblk : lists all the block devices of your system along with their logical partitions (for this you do not need to be in the root!)
+#       fdisk -l : fdisk stands for format-disk or Fixed-disk it's used to create or delete hard disk partitions
+#       if you use the -l option it shows the partition table then exit
+#       sfdisk -l /dev/sda : primarily used to manipulate partition tables on linux but can also list with the syntax
+#       or....try parted/dev/sda you will get into the "parted" prompt type unit GB or TB and then type print
+#       you can use parted -l too.
 
-lsblk
+fdisk -l

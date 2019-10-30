@@ -1,5 +1,9 @@
-# Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
+# Example : 
+#       Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
 #
-# Expected output : 
+# Note :
+#       first make sure you install/configure SSH after that
+#       you can connect to via ssh on the VM
+#       find the IP address with if config inet addr being the local IP
 
-ssh sapark@127.0.0.1
+ssh user@ip
