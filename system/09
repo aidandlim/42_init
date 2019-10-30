@@ -3,8 +3,8 @@
 #
 # Note :
 #       you can use command w or command who
-#	    w 	-	Show who is logged on and what they are doing.
+#	    w 	-	Show who is logged on + what they are doing.
 #	    who -	Show who is logged on
-#       in this case who is logged on will be enough
+#       in this case who will be enough
 
 who

@@ -4,14 +4,8 @@
 # Note :
 #       PID meaning the process ID of the process.
 #       Two ways, If you want to get the PID only
-#       run the command systemctl status ssh command then grep " PID" | awk '{print $3}'
-#       ----------------when you want more------------------------------------
-#       but you can also do it by running the command ps (short for process status),
-#       displaying currently-running processes, real-time view
-#       -----------------------why aux----------------------------------------
-#       -aux for the a argument lets ps show processes of all users instead of only the current user, if the processes are connected to a terminal.
-#       The x makes ps also include processes which are not connected to any terminal in the list. So the ax together causes ps to list all processes without restriction.
-#       The u simply changes the output formatting and visible columns.
+#       (1) run the command : systemctl status ssh | grep " PID" | awk '{print $3}'
+#       (2) run the command ps (short for process status, displaying currently-running processes, real-time view)
+#           aux for the a argument lets ps show processes of all users instead of only the current user.
 
-ps aux | grep "ssh" | awk 'FNR == 1'
-#systemctl status ssh | grep " PID" | awk '{print $3}'
+ps aux | grep ssh | awk 'FNR == 1' | awk '{print $2}'

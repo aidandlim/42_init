@@ -2,7 +2,8 @@
 #        Name the command that find, in real time, currently running processes
 #
 # Note :
-#       top -display linux tasks
+#       top : this command display linux tasks
 #       dynamic real time view of running processes
+#       press 'q' to exit
 
 top

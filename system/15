@@ -2,12 +2,12 @@
 #       Find the command that kills the background command’s process
 #
 # Note :
-#       how do you kill a job?
-#       you can kill a job by using command kill with the PID of the job
-#       how do you determine the PID?
-#       use command : jobs -l and it will list the jobs and it's details including PID
-#       or use command : ps, ps reports a snapshot of the current processes
-#       when process isn't responding to the term signal (which allows the process to do a final clean up before quitting)
-#       go for the KILL signal(which doesn't let process do any clean up)
+#       kill : you can kill a job by using command kill with the PID
+#       ps aux : it will list the jobs and it's details including PID
+#       -9 : Forced termination; cannot be trapped
+#
+# Reference :
+#       Linux / UNIX: Kill Command Examples
+#       (https://www.cyberciti.biz/faq/unix-kill-command-examples/)
 
-kill %pid
+kill [PID]

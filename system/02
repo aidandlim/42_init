@@ -1,4 +1,5 @@
 # Example : 
 #       What command can you use to rename your system?
+#       And if you want to check it works, type hostname
 
-hostname <that I want to change>
+hostname [NEW_HOST_NAME]

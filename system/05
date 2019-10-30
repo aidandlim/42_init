@@ -2,6 +2,6 @@
 #       Name the command that determines the state of the SSH service.
 #
 # Note :
-#       systemctl status ssh this command shows the current state of the SSh
+#       systemctl status ssh, with this command you can see the current state of the SSH
 
 systemctl status ssh

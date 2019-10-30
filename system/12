@@ -2,8 +2,8 @@
 #       Figure out the exact size of each folder of /var in a humanly understandable way followed by the path of it.
 #
 # Note :
-#       du standing for disk usage
-#       use -h for human readable form
+#       du : "disk usage"
 #       -s for summarization since the requried form is just the size of each forlder of /var
+#       -h for human readable form
 
 du -sh /var/*

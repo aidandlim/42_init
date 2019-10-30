@@ -2,13 +2,8 @@
 #       Run the ‘tail -f /var/log/syslog‘ command in background
 #
 # Note :
-#       What is command tail?
-#       tail : print the last 10  lines of each [File] to standard output.
-#       syntax : tail [OPTION]..[FILE]
-#       option -f : output appended data(data added at the end) as the file grows
-#       -------------------------------running a command in the BG-------------------
 #       include an &(an ampersand) at the end of the command
-#       how to check What's running use command : jobs
-#       or by using command : bg, it tells us how many jobs are running
+#       how to check What's running use command : ps aux
+#       tail : print the last 10 lines of each [File] to standard output.
 
 tail -f /var/log/syslog &

@@ -5,4 +5,4 @@
 #       vim /etc/hostname then edit the file to a host name you want.
 #       Modify the entry and restart the system.
 
-/etc/hostname.
+/etc/hostname

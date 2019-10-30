@@ -2,6 +2,7 @@
 #       Name the command that reboots the SSH service.
 #
 # Note :
-#       can check with systemctl status ssh 
+#       service sshd restart, with this command you can restart ssh service
+#       And then you can check the start time of ssh service with systemctl status ssh command
 
 service sshd restart
