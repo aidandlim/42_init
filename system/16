@@ -2,12 +2,11 @@
 #       Find the service which makes it possible to run specific tasks following a regular schedule
 #
 # Note :
-#       cron is a system service that runs in the background,checks for scheduled tasks, and executes them if it finds any.
-#       The tasks -called "cron jobs"- are defined in special configuration files (crontabs)
-#       crons scans crontabs every minute to check for scheduled tasks.
+#       cron is a system service that runs in the background, checks for scheduled tasks, and executes them if it finds any.
 #       "Crontabs" are like your computer's calendar
 #       you can use command crontab -e to edit the crontabs and add a scheduled task
 #       to edit root or other users' crontabs, run the command with admin privileges and add -u option for user name
-#       syntax : sudo crontab -u root -e
+#       syntax : crontab -u root -e
+#       example : * * * * * cat /home/dlim/Desktop/42_init/system/16 > /home/dlim/Desktop/cron
 
 cron

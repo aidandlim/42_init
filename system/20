@@ -5,4 +5,4 @@
 #       -F <value> -tells awk what field separator to use, in our case we are using ':'
 #       We are printing the first field separated by ':'
 
-cat /etc/passwd | awk -F: '{print $1}'
+cat /etc/passwd | awk -F : '{print $1}'

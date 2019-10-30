@@ -2,10 +2,9 @@
 #       List all services which are started at boot time and name this kind of services
 #
 # Note :
-#       unit command of systemctl : list-unit, list units that systemd currently has in memory.
+#       list-units, list units that systemd currently has in memory.
 #       including units that are either referenced directly or through a dependency.
-#       Services which start at boot time are called daemon services
-#       daemon services are also known as background processes.
-#       with -all you can see all services no matter they are active are not.
+#       Services which start at boot time are called daemon services, also known as background processes.
+#       systemctl list-unit-files --type=service | grep "enabled"
 
-systemctl list-unit --type service
+systemctl list-units --type=service
