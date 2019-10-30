@@ -1,4 +1,5 @@
-# Three’s a Charm. Write a script of you choice.
+# Example 03 : 
+#       Three’s a Charm. Write a script of you choice.
 
 echo "What is your name?"
 read name

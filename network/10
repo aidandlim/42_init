@@ -1,8 +1,12 @@
-# Example : 
+# Example 10 : 
 #       Identify the network devices between your computer and the slash16.org domain
 #
 # Expected output : 
-#       ...
+#       1  10.112.254.254 (10.112.254.254)  0.760 ms  0.432 ms  0.438 ms
+#       2  192.168.0.2 (192.168.0.2)  0.464 ms  0.502 ms  0.477 ms
+#       3  nat (10.90.1.11)  0.230 ms  0.321 ms  0.237 ms
+#       4  64.62.224.30 (64.62.224.30)  0.872 ms  0.799 ms  0.825 ms
+#       5  64.62.224.253 (64.62.224.253)  3.485 ms  3.473 ms  3.628 ms
 #
 # Note :
 #       internet is connected through gateways
