@@ -5,4 +5,4 @@
 #       can check by using the command for exercise 21
 #       if you want to delete user, user /sbin/userdel [USER_NAME]
 
-/sbin/adduser [NEW_USER_NAME]
+adduser [NEW_USER_NAME]

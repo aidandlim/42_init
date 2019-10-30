@@ -4,4 +4,4 @@
 echo "[Delete user]"
 echo "Username :"
 read username
-/sbin/userdel $username
+userdel $username

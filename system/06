@@ -4,5 +4,6 @@
 # Note :
 #       service sshd restart, with this command you can restart ssh service
 #       And then you can check the start time of ssh service with systemctl status ssh command
+#       if you get 'command not found', add path '/sbin' to .bashrc file and then restart terminal
 
 service sshd restart
